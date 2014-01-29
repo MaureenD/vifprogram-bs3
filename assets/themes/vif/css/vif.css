@@ -139,3 +139,9 @@ h4 {
   font-size: 17px;
   color: #002147;
 }
+@media (min-width: 768px) {
+  .navbar-nav {
+    float: right;
+    margin: 25px 0;
+  }
+}
