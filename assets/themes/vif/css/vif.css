@@ -144,4 +144,118 @@ h4 {
     float: right;
     margin: 25px 0;
   }
+  #program-nav > .navbar-nav,
+  #about-nav > .navbar-nav,
+  #app-nav > .navbar-nav,
+  #press-nav > .navbar-nav {
+    margin: 0px;
+  }
+}
+.navbar-default .navbar-nav > li > a {
+  color: #002147;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #002147;
+  background-color: #eaab00;
+}
+.nav-pills {
+  margin-top: 10px;
+}
+.nav-pills > li {
+  float: left;
+}
+.nav-pills > li > a {
+  border-radius: 5px;
+  padding: 10px 25px;
+  background-color: #cccccc;
+  color: #002147;
+}
+.nav-pills > li + li {
+  margin-left: 10px;
+}
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+  color: #002147;
+  background-color: #eaab00;
+}
+#program-nav,
+#app-nav,
+#about-nav,
+#press-nav {
+  margin-top: 50px;
+  margin-bottom: 0px;
+  display: none;
+}
+#program-nav li > a,
+#app-nav li > a,
+#about-nav li > a,
+#press-nav li > a {
+  font-size: 16px;
+  padding-right: 0px;
+}
+#program-nav li > a:hover,
+#app-nav li > a:hover,
+#about-nav li > a:hover,
+#press-nav li > a:hover {
+  text-decoration: underline;
+  color: #002147;
+}
+#program-nav li > a.active > a,
+#app-nav li > a.active > a,
+#about-nav li > a.active > a,
+#press-nav li > a.active > a {
+  color: #0083a9;
+}
+#program-nav li + li,
+#app-nav li + li,
+#about-nav li + li,
+#press-nav li + li {
+  margin-left: 20px;
+}
+img.vif-prog,
+img.vif-top,
+img.vif-cur {
+  width: 100%;
+  max-width: 100%;
+  opacity: 0.5;
+}
+.vif-top {
+  height: 385px;
+}
+.vif-prog {
+  height: 308px;
+}
+.vif-cur {
+  height: 85px;
+}
+.form-pic {
+  height: 404px;
+  vertical-align: bottom;
+}
+#form-pic {
+  width: 100%;
+  height: 350px;
+  max-width: 100%;
+  opacity: 0.5;
+}
+footer {
+  color: #000;
+  background: #dfe1e2;
+  padding: 20px;
+}
+footer p {
+  margin: 0;
+}
+footer a {
+  color: #000;
+}
+footer em {
+  color: #b6b6b6;
+}
+footer .corp {
+  color: #b6b6b6;
+  font-size: 11px;
 }
