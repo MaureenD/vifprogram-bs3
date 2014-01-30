@@ -59,7 +59,7 @@ JB :
   BASE_PATH : false
 
   # By default, the asset_path is automatically defined relative to BASE_PATH plus the enabled theme.
-  # ex: [BASE_PATH]/assets/themes/[THEME-NAME]
+  # [BASE_PATH]/assets/themes/[THEME-NAME]
   #
   # Override this by defining an absolute path to assets here.
   # ex: 
@@ -129,11 +129,14 @@ JB :
   # and include your custom code. Your custom file must be defined at:
   #   ./_includes/custom/[HELPER]
   # where [HELPER] is the name of the helper you are overriding.
+  theme:
+  name: vif
   
 navigation:
   -
     name: Our Programs
     href: programs.html
+    id: programs
   -
     name: About VIF
     href: about.html
