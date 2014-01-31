@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Our Programs
 header:
 group: navigation
